@@ -1,0 +1,10 @@
+[PropertyInfo]
+literalObject,boolean,false,false, , ,false,<default>
+object,String,false,false, , ,false,<default>
+predicate,String,false,false, , ,false,<default>
+subject,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

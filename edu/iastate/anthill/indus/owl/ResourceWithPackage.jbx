@@ -1,0 +1,14 @@
+[PropertyInfo]
+inPackageName,String,false,false, , ,true,<default>
+jenaLocalName,String,false,false, , ,true,<default>
+model,OntologyWithPackage,false,false, , ,false,<default>
+PACKAGE_PACKAGE_CONNECTOR,String,false,false, , ,false,<default>
+PACKAGE_RES_CONNECTOR,String,false,false, , ,false,<default>
+packageName,String,false,false, , ,true,<default>
+res,OntResource,false,false, , ,false,<default>
+type,short,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

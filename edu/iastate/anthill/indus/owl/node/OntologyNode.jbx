@@ -1,0 +1,10 @@
+[PropertyInfo]
+comment,String,false,false, , ,false,<default>
+DEFAULT_LANGAUGE,String,false,false, , ,false,<default>
+res,OntResource,false,false, , ,false,<default>
+type,short,false,false, , ,true,<default>
+[IconNames]
+
+
+
+
