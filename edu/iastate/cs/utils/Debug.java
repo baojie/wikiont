@@ -64,7 +64,7 @@ public class Debug
     /**
      * Called when application is crashing . the function prints an error
      * message and exits with the error code specifed.
-     * @param view The window from which the exit was called.
+     * @param frame The window from which the exit was called.
      * @param errormsg The error message to display.
      * @param errorcode The errorcode to exit with.
      */

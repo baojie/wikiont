@@ -92,12 +92,8 @@ public class JenaModel
     }
 
     /**
-     *
-     * @param className String
+     * @param localName String
      * @return OntClass
-     *
-     * @author Jie Bao
-     * @version 2003-03-05
      */
     public OntClass addClass(String localName)
     {
@@ -117,11 +113,8 @@ public class JenaModel
     /**
      * Create a property
      *
-     * @param propertyName String
+     * @param localName String
      * @return Property
-     *
-     * @author Jie Bao
-     * @version 2003-04-22
      */
     public OntProperty addProperty(String localName)
     {
@@ -141,12 +134,9 @@ public class JenaModel
     /**
      * Create an Instance given a class
      *
-     * @param instanceName String
+     * @param localName String
      * @param className OntClass
      * @return Individual
-     *
-     * @author Jie Bao
-     * @version 2003-04-22
      */
     public Individual addInstance(String localName, OntClass className)
     {
@@ -266,8 +256,6 @@ public class JenaModel
      * @param old Resource
      * @param newName String
      * @return Resource
-     *
-     * @version 2004-04-22
      */
     public OntResource renameResource(Resource old, String newName)
     {
@@ -286,10 +274,7 @@ public class JenaModel
     /**
      * deleteResource
      *
-     * @param object Object
-     *
-     * @author Jie Bao
-     * @version 2004-04-23
+     * @param localName Object
      */
     public void deleteResource(String localName)
     {
@@ -362,7 +347,7 @@ public class JenaModel
     /**
      * createOntology
      *
-     * @param inPackageName String
+     * @param urlbase String
      * @return OntResource
      * @since 2004-05-01
      */

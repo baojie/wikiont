@@ -74,7 +74,6 @@ abstract public class DefaultOntologyNode
      * @param model OntologyWithPackage
      * @param instanceOf OntClass
      *
-     * @author Jie Bao
      * @since 2004-04-29
      */
     public DefaultOntologyNode(String inPackageName,
@@ -135,8 +134,7 @@ abstract public class DefaultOntologyNode
     /**
      * rename the node and its ontology resource node
      *
-     * @param newName String
-     * @author Jie Bao
+     * @param newInPackageName String
      * @since 2004-04-30
      */
     public void rename(String newInPackageName)

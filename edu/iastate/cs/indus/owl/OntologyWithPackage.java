@@ -36,8 +36,7 @@ public class OntologyWithPackage
     /**
      * setup system classes and properties
      *
-     * @author Jie Bao
-     * @version 2004-04-27
+     * @since 2004-04-27
      */
     public void initialize()
     {

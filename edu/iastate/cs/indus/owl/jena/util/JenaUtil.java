@@ -36,8 +36,7 @@ import edu.iastate.cs.indus.owl.jena.OntModelProvider;
  * A collection of static utility methods for Jena.
  *
  * @author Holger Knublauch  <holger@smi.stanford.edu>
- * @ Jie Bao <baojie@cs.iastate.edu>
- *     fixed some version problem of jena 2004-04-30
+ * @author Jie Bao <baojie@cs.iastate.edu> fixed some version problem of jena 2004-04-30
  */
 public class JenaUtil
 {
@@ -54,12 +53,10 @@ public class JenaUtil
     }
 
     /**
-     *
      * @param resource Resource
-     * @return OntResource
-     *
-     * @author Jie Bao
      * @since 2004-05-01
+     * 
+     * @return OntResource
      */
     public static OntResource asOntResource(Resource resource)
     {
@@ -84,9 +81,9 @@ public class JenaUtil
     /**
      * Checks whether a given OntResource has a certain rdf:type, or a subclass thereof.
      * This is a work-around for the lack of subsumption reasoning in Jena's default model.
-     * @param resource
-     * @param type
-     * @return
+     * @param resource resource
+     * @param type type
+     * @return boolean of the check
      */
     public static boolean canAs(RDFNode resource, Resource type)
     {
@@ -297,10 +294,8 @@ public class JenaUtil
      *
      * @param old Resource
      * @param uri String
-     * @return OntResource
-     *
-     * @author Jie Bao
      * @since 2004-04-30
+     * @return OntResource
      */
     public static OntResource renameResource(Resource old, String uri)
     {

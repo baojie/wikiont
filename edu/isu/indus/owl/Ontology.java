@@ -41,7 +41,7 @@ public class Ontology
      * retrun a HTML string for all classes
      *
      * @return String
-     * @version 2004-02-06
+     * @since 2004-02-07
      */
     public String getClassList()
     {
@@ -68,7 +68,7 @@ public class Ontology
 
     /**
      * Save the ontology in a file
-     * @version 2004-02-07
+     * @since 2004-02-07
      */
     public void save(String fileName)
     {
@@ -108,7 +108,7 @@ public class Ontology
 
     /**
      * Load the ontology from a file
-     * @version 2004-02-08
+     * @since 2004-02-08
      */
     public void load(String fileName)
     {
@@ -140,7 +140,7 @@ public class Ontology
      * Return the number of concepts
      *
      * @return int
-     * @version 2004-02-08
+     * @since 2004-02-08
      */
     public int getConceptNumber()
     {
@@ -156,7 +156,7 @@ public class Ontology
 
     /**
      * Delete all elements in class list
-     * @version 2004-02-06
+     * @since 2004-02-06
      *
      */
     public void clearList()
@@ -170,7 +170,7 @@ public class Ontology
     /**
      * remove specified class
      * @param str String
-     * @version 2004-02-06
+     * @since 2004-02-06
      */
     public void delete(String str)
     {

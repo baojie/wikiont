@@ -20,7 +20,6 @@ public interface OntHierarchy
      * @param jenaModel OntologyWithPackage
      * @return Tree
      *
-     * @author Jie Bao
      * @since 2004-05-01
      */
     public Tree createFromModel(OntologyWithPackage jenaModel);
@@ -32,7 +31,6 @@ public interface OntHierarchy
      * @param res Resource
      * @return Iterator - each item in the list is a resource
      *
-     * @author Jie Bao
      * @since 2004-05-01
      */
     public Iterator listChild(Resource res);

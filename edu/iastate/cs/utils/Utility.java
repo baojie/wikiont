@@ -23,9 +23,8 @@ public class Utility
     /**
      *
      * @param longSize
-     * @return
-     * @author Jie Bao
-     * @version 2003-11-01
+     * @return format size in String
+     * @since 2003-11-01
      */
     public static String formatSize(long longSize)
     {
@@ -36,9 +35,8 @@ public class Utility
      *
      * @param longSize
      * @param decimalPos
-     * @return
-     * @author Jie Bao
-     * @version 2003-11-01
+     * @return format size in String
+     * @since 2003-11-01
      */
     public static String formatSize(long longSize, int decimalPos)
     {
@@ -149,7 +147,7 @@ public class Utility
     /**
      * Retrieves the maximum between a list of integers.
      * @param numbers the collection of all numbers.
-     * @result the maximum number,
+     * @return the maximum number,
      */
     public static int getMax(int[] numbers)
     {
@@ -169,7 +167,7 @@ public class Utility
     /**
      * Retrieves the maximum between a list of doubles.
      * @param numbers the collection of all numbers.
-     * @result the maximum number,
+     * @return the maximum number,
      */
     public static double getMax(double[] numbers)
     {
@@ -188,11 +186,10 @@ public class Utility
 
     /**
      *
-     * @param fileName String
+     * @param filename String
      * @return String the extenstion of the file name
      *
-     * @author Jie Bao
-     * @version 2004-04-26
+     * @since 2004-04-26
      */
     public static String getFileExtenstion(String filename)
     {

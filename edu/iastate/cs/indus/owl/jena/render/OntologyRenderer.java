@@ -61,8 +61,7 @@ public class OntologyRenderer
      * @param ontURI String
      * @return String
      *
-     * @author Jie Bao
-     * @version 2003-03-03
+     * @since 2003-03-03
      */
     public String displayClassTree(OntModel model, String ontURI)
     {
@@ -90,8 +89,7 @@ public class OntologyRenderer
      * @param ontURI String
      * @return String
      *
-     * @author Jie Bao
-     * @version 2003-03-04
+     * @since 2003-03-04
      */
     public String displayPropertyTree(OntModel model, String ontURI)
     {

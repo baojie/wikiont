@@ -54,7 +54,7 @@ public class ResourceWithPackage
      *
      * @param inPackageName String
      * @param type short
-     * @param pkg Individual
+     * @param fatherPackage Individual
      * @param model OntologyWithPackage
      * @param instanceOf OntClass - be used when type is INSTANCE, otherwise discarded
      */
@@ -214,7 +214,6 @@ public class ResourceWithPackage
      * @param newInPackageName String
      * @param isPackage boolean
      *
-     * @author Jie Bao
      * @since 2004-04-30
      */
     public void rename(String newInPackageName, boolean isPackage)
@@ -227,7 +226,6 @@ public class ResourceWithPackage
     /**
      * return in-package name
      *
-     * @author Jie Bao
      * @since 2004-04-30
      */
     public String toString()

@@ -123,8 +123,7 @@ abstract public class EditorGUI
     }
 
     /**
-     * @author Jie Bao
-     * @version 2004-04-22
+     * @since 2004-04-22
      */
     public void UpdateOWLPane()
     {
@@ -143,8 +142,6 @@ abstract public class EditorGUI
      * Update mainframe title to currently editing file, or title given bu user
      *
      * @param newTitle String - Could be null, default is the currently editing file
-     *
-     * @author Jie Bao
      * @since  2004-05-01
      */
     public void UpdateTitle(String newTitle)

@@ -24,7 +24,6 @@ abstract public class EditorBasis
      * @param newFile File
      * @throws JenaException
      *
-     * @author Jie Bao
      * @since 2004-05-01
      */
     public void saveOntology(File newFile) throws JenaException
@@ -72,7 +71,7 @@ abstract public class EditorBasis
     /**
      * if the document need to be saved
      * @return boolean
-     * @author Jie Bao
+     * 
      * @since 2004-05-01
      */
     public boolean ifNeedSave()
@@ -89,7 +88,7 @@ abstract public class EditorBasis
 
     /**
      * close the ontology
-     * @since2004-05-01
+     * @since 2004-05-01
      */
     public void closeOntology()
     {
