@@ -18,12 +18,6 @@ package edu.iastate.cs.utils.gui;
  * License along with this library; if not, write to the Free Software
  * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Vector;
-
 import java.awt.AWTEvent;
 import java.awt.Component;
 import java.awt.Container;
@@ -38,6 +32,12 @@ import java.awt.Rectangle;
 import java.awt.Toolkit;
 import java.awt.Window;
 import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Vector;
+
 import javax.swing.JButton;
 import javax.swing.JInternalFrame;
 import javax.swing.SwingUtilities;

@@ -3,6 +3,7 @@ package edu.iastate.cs.indus.owl.hierarchy;
 import java.util.Iterator;
 
 import com.hp.hpl.jena.rdf.model.Resource;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
 
 /**

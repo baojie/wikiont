@@ -35,13 +35,14 @@ package edu.isu.indus.gui.view;
  */
 
 //{{{ jsXe classes
-import java.io.*;
+import java.io.IOException;
 
-import javax.swing.*;
+import javax.swing.JMenu;
+import javax.swing.JPanel;
 
-import edu.isu.indus.gui.*;
-import edu.isu.indus.gui.dlg.*;
-import edu.isu.indus.xml.*;
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.gui.dlg.OptionsPanel;
+import edu.isu.indus.xml.XMLDocument;
 
 //}}}
 

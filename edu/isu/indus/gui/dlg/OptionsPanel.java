@@ -28,7 +28,7 @@ package edu.isu.indus.gui.dlg;
 
 
 //{{{ Swing components
-import javax.swing.*;
+import javax.swing.JPanel;
 
 //}}}
 

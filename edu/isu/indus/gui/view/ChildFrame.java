@@ -37,25 +37,61 @@ package edu.isu.indus.gui.view;
  */
 
 //{{{ jsXe classes
-import java.io.*;
-import javax.xml.parsers.*;
+import java.awt.BorderLayout;
+import java.awt.Component;
+import java.awt.FlowLayout;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
+import java.awt.Insets;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.MouseAdapter;
+import java.awt.event.MouseEvent;
+import java.io.IOException;
 
-//}}}
-//{{{ AWT components
-import java.awt.*;
-import java.awt.event.*;
-//}}}
-//{{{ Swing components
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.tree.*;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.ButtonGroup;
+import javax.swing.JCheckBox;
+import javax.swing.JEditorPane;
+import javax.swing.JLabel;
+import javax.swing.JMenu;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JPopupMenu;
+import javax.swing.JRadioButton;
+import javax.swing.JScrollPane;
+import javax.swing.JSplitPane;
+import javax.swing.JTable;
+import javax.swing.KeyStroke;
+import javax.swing.ToolTipManager;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
+import javax.swing.event.DocumentEvent;
+import javax.swing.event.DocumentListener;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.event.TreeSelectionEvent;
+import javax.swing.event.TreeSelectionListener;
+import javax.swing.tree.TreePath;
+import javax.swing.tree.TreeSelectionModel;
+import javax.xml.parsers.ParserConfigurationException;
 
-import org.w3c.dom.*;
-import edu.isu.indus.action.*;
-import edu.isu.indus.gui.*;
-import edu.isu.indus.gui.dlg.*;
-import edu.isu.indus.xml.*;
+import org.w3c.dom.DOMException;
+import org.w3c.dom.Node;
+
 import edu.iastate.cs.utils.Debug;
+import edu.isu.indus.action.ViewRefreshAction;
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.gui.TreeCellRendererEx;
+import edu.isu.indus.gui.dlg.OptionsPanel;
+import edu.isu.indus.xml.XMLDocument;
+import edu.isu.indus.xml.XNode;
+import edu.isu.indus.xml.XTree;
 
 //}}}
 //}}}

@@ -1,6 +1,9 @@
 package edu.iastate.cs.indus.owl.jena.render;
 
+import java.io.PrintStream;
+import java.util.HashMap;
 import java.util.Iterator;
+import java.util.Map;
 
 import com.hp.hpl.jena.ontology.BooleanClassDescription;
 import com.hp.hpl.jena.ontology.DatatypeProperty;
@@ -15,11 +18,8 @@ import com.hp.hpl.jena.ontology.Restriction;
 import com.hp.hpl.jena.rdf.model.Literal;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-import java.io.PrintStream;
 import com.hp.hpl.jena.shared.PrefixMapping;
-import java.util.Map;
-import java.util.HashMap;
+import com.hp.hpl.jena.util.iterator.ExtendedIterator;
 
 /**
  * render term level  information

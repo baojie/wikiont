@@ -34,15 +34,19 @@ package edu.isu.indus.gui.dlg;
  */
 
 //{{{ jsXe classes
-import java.util.*;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.util.Enumeration;
+import java.util.Vector;
 
-//}}}
-//{{{ AWT components
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.event.*;
+import javax.swing.JCheckBox;
+import javax.swing.JComboBox;
+import javax.swing.JLabel;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
-import edu.isu.indus.xml.*;
+import edu.isu.indus.xml.XMLDocument;
 
 //}}}
 

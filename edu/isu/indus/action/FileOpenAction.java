@@ -34,13 +34,15 @@ package edu.isu.indus.action;
  */
 
 //{{{ jsXe classes
-import java.io.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
 
-import java.awt.event.*;
-import javax.swing.*;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.JOptionPane;
 
-import edu.isu.indus.*;
-import edu.isu.indus.gui.*;
+import edu.isu.indus.XmlEditor;
+import edu.isu.indus.gui.MainFrame;
 
 //}}}
 

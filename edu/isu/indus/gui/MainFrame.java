@@ -34,22 +34,37 @@ package edu.isu.indus.gui;
  */
 
 //{{{ jsXe classes
-import java.io.*;
+import java.awt.BorderLayout;
+import java.awt.Rectangle;
+import java.awt.event.WindowAdapter;
+import java.awt.event.WindowEvent;
+import java.io.IOException;
 
-//}}}
-//{{{ AWT components
-import java.awt.*;
-import java.awt.event.*;
-//}}}
-//{{{ Swing components
-import javax.swing.*;
-import javax.swing.event.*;
+import javax.swing.JFrame;
+import javax.swing.JMenu;
+import javax.swing.JMenuBar;
+import javax.swing.JMenuItem;
+import javax.swing.JOptionPane;
+import javax.swing.JPanel;
+import javax.swing.JTabbedPane;
+import javax.swing.KeyStroke;
+import javax.swing.UIManager;
+import javax.swing.event.ChangeEvent;
+import javax.swing.event.ChangeListener;
 
-import edu.isu.indus.*;
-import edu.isu.indus.action.*;
-import edu.isu.indus.gui.view.*;
-import edu.isu.indus.xml.*;
-import edu.iastate.cs.utils.*;
+import edu.iastate.cs.utils.Debug;
+import edu.isu.indus.XmlEditor;
+import edu.isu.indus.action.FileCloseAction;
+import edu.isu.indus.action.FileExitAction;
+import edu.isu.indus.action.FileNewAction;
+import edu.isu.indus.action.FileOpenAction;
+import edu.isu.indus.action.FileSaveAction;
+import edu.isu.indus.action.FileSaveAsAction;
+import edu.isu.indus.action.HelpAboutAction;
+import edu.isu.indus.action.ToolsOptionsAction;
+import edu.isu.indus.gui.view.DocumentView;
+import edu.isu.indus.gui.view.DocumentViewFactory;
+import edu.isu.indus.xml.XMLDocument;
 
 //}}}
 
@@ -60,7 +75,7 @@ import edu.iastate.cs.utils.*;
  * all open DocumentViews.
  *
  * @author Ian Lewis (<a href="mailto:IanLewis@member.fsf.org">IanLewis@member.fsf.org</a>)
- * @version $Id: MainFrame.java,v 1.1 2004/06/16 23:59:48 kangdaeki Exp $
+ * @version $Id: MainFrame.java,v 1.2 2004/06/20 04:37:26 kangdaeki Exp $
  */
 public class MainFrame
     extends JFrame {

@@ -17,6 +17,7 @@ import java.util.Map;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
+import com.hp.hpl.jena.ontology.OntModelSpec;
 import com.hp.hpl.jena.ontology.OntProperty;
 import com.hp.hpl.jena.ontology.OntResource;
 import com.hp.hpl.jena.ontology.Ontology;
@@ -27,8 +28,8 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-import edu.iastate.cs.indus.owl.jena.util.*;
-import com.hp.hpl.jena.ontology.OntModelSpec;
+
+import edu.iastate.cs.indus.owl.jena.util.JenaUtil;
 
 /**
  * Agent to use jena ontology model

@@ -20,6 +20,7 @@ import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
 import com.hp.hpl.jena.rdf.model.StmtIterator;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
+
 import edu.iastate.cs.indus.owl.jena.render.OntologyRenderer;
 
 public class Browser

@@ -1,11 +1,11 @@
 package edu.iastate.cs.indus.gui.panel.tree;
 
-import java.text.SimpleDateFormat;
-import java.util.Calendar;
-
 import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+
 import javax.swing.Icon;
 import javax.swing.JMenuItem;
 import javax.swing.JPopupMenu;
@@ -20,8 +20,8 @@ import edu.iastate.cs.indus.gui.action.tree.CreatePropertyAction;
 import edu.iastate.cs.indus.gui.action.tree.DeleteAction;
 import edu.iastate.cs.indus.gui.action.tree.RenameAction;
 import edu.iastate.cs.indus.gui.action.tree.ShowPropertyAction;
-import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 import edu.iastate.cs.indus.owl.hierarchy.Tree;
+import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 
 public // popup menu on the tree
     class TreePopupMenuListener

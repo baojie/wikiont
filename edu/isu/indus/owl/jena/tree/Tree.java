@@ -2,10 +2,13 @@ package edu.isu.indus.owl.jena.tree;
 
 import java.util.Enumeration;
 
+import javax.swing.JEditorPane;
+import javax.swing.JFrame;
+import javax.swing.JScrollPane;
+
 import com.hp.hpl.jena.rdf.model.Model;
 import com.hp.hpl.jena.rdf.model.ModelFactory;
-import com.hp.hpl.jena.rdf.model.*;
-import javax.swing.*;
+import com.hp.hpl.jena.rdf.model.Resource;
 
 /**
  * Tree Data Structure

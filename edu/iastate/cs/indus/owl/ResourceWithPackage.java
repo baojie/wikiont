@@ -6,6 +6,7 @@ import com.hp.hpl.jena.ontology.OntResource;
 import com.hp.hpl.jena.rdf.model.RDFNode;
 import com.hp.hpl.jena.rdf.model.Resource;
 import com.hp.hpl.jena.rdf.model.Statement;
+
 import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 
 /**

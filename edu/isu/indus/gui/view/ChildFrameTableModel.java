@@ -36,15 +36,20 @@ package edu.isu.indus.gui.view;
  */
 
 //{{{ jsXe classes
-import java.util.*;
+import java.awt.Component;
+import java.util.Enumeration;
+import java.util.Vector;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.table.*;
+import javax.swing.JOptionPane;
+import javax.swing.event.TableModelEvent;
+import javax.swing.event.TableModelListener;
+import javax.swing.table.TableModel;
 
-import org.w3c.dom.*;
-import edu.isu.indus.xml.*;
+import org.w3c.dom.DOMException;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+
+import edu.isu.indus.xml.XNode;
 
 //}}}
 

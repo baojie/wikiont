@@ -40,12 +40,17 @@ package edu.isu.indus.xml;
 //}}}
 
 //{{{ DOM classes
-import java.io.*;
-import java.util.*;
-import javax.xml.parsers.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.Reader;
+import java.util.Properties;
 
-import org.w3c.dom.*;
-import org.xml.sax.*;
+import javax.xml.parsers.ParserConfigurationException;
+
+import org.w3c.dom.Document;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
 
 //}}}
 

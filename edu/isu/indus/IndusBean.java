@@ -1,6 +1,6 @@
 package edu.isu.indus;
 
-import edu.isu.indus.owl.*;
+import edu.isu.indus.owl.Hierarchy;
 
 /**
  * The INDUS ontology editor main interface

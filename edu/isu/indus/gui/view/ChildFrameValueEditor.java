@@ -36,11 +36,18 @@ package edu.isu.indus.gui.view;
 
 //{{{ jsXe classes
 //}}}
-import java.awt.*;
-import javax.swing.text.*;
+import java.awt.Toolkit;
 
-import org.w3c.dom.*;
-import edu.isu.indus.xml.*;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.GapContent;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleContext;
+
+import org.w3c.dom.DOMException;
+
+import edu.isu.indus.xml.XNode;
 
 //}}}
 

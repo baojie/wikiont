@@ -1,9 +1,10 @@
 package edu.iastate.cs.indus.owl.node;
 
+import com.hp.hpl.jena.ontology.OntModel;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
 import edu.iastate.cs.indus.owl.jena.render.OntologyRenderer;
 import edu.iastate.cs.utils.gui.SetupDlg;
-import com.hp.hpl.jena.ontology.OntModel;
 
 public class OntologyDocumentNode
     extends DefaultOntologyNode

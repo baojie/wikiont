@@ -2,8 +2,9 @@ package edu.isu.indus.owl.jena.tree;
 
 import javax.swing.tree.DefaultMutableTreeNode;
 
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
 import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.rdf.model.*;
 
 public class DefaultNode
     extends DefaultMutableTreeNode

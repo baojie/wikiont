@@ -1,6 +1,7 @@
 package edu.iastate.cs.indus.gui.panel.browser;
 
 import java.awt.BorderLayout;
+
 import javax.swing.JEditorPane;
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;

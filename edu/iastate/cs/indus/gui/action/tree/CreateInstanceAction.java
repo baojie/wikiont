@@ -2,11 +2,13 @@ package edu.iastate.cs.indus.gui.action.tree;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import javax.swing.JOptionPane;
 import javax.swing.tree.DefaultTreeModel;
 
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
 import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 import edu.iastate.cs.indus.owl.node.InstanceNode;

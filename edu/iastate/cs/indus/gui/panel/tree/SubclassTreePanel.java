@@ -1,6 +1,7 @@
 package edu.iastate.cs.indus.gui.panel.tree;
 
 import java.awt.BorderLayout;
+
 import javax.swing.JPanel;
 import javax.swing.JScrollPane;
 import javax.swing.event.TreeSelectionEvent;

@@ -3,17 +3,25 @@ package edu.isu.indus;
 //Java core
 //XML
 //GUI
-import java.io.*;
-import java.util.*;
+import java.io.File;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
+import java.util.Vector;
 
-import javax.swing.*;
+import javax.swing.ImageIcon;
+import javax.swing.JFileChooser;
+import javax.swing.JOptionPane;
 
-// INDUS
-import edu.isu.indus.gui.*;
-import edu.isu.indus.gui.view.*;
-import edu.isu.indus.gui.dlg.*;
-import edu.isu.indus.xml.*;
-import edu.iastate.cs.utils.*;
+import edu.iastate.cs.utils.Debug;
+import edu.iastate.cs.utils.FileFilterEx;
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.gui.dlg.AppOptionsPanel;
+import edu.isu.indus.gui.dlg.OptionsPanel;
+import edu.isu.indus.gui.view.DocumentView;
+import edu.isu.indus.xml.UnrecognizedDocTypeException;
+import edu.isu.indus.xml.XMLDocument;
+import edu.isu.indus.xml.XMLDocumentFactory;
 
 public class XmlEditor
     {

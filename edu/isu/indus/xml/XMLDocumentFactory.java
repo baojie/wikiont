@@ -36,7 +36,11 @@ package edu.isu.indus.xml;
  */
 
 //{{{ Java base classes
-import java.io.*;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.Reader;
+import java.io.StringReader;
 
 //}}}
 

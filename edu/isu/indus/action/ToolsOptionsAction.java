@@ -33,11 +33,13 @@ package edu.isu.indus.action;
  */
 
 //{{{ jsXe classes
-import java.awt.event.*;
-import javax.swing.*;
+import java.awt.event.ActionEvent;
 
-import edu.isu.indus.gui.*;
-import edu.isu.indus.gui.dlg.*;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.gui.dlg.OptionsDialog;
 
 //}}}
 

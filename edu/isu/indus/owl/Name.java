@@ -1,6 +1,6 @@
 package edu.isu.indus.owl;
 
-import edu.isu.indus.owl.jena.tree.*;
+import edu.isu.indus.owl.jena.tree.DefaultNode;
 
 public class Name
     implements Comparable

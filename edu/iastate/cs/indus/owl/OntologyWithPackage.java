@@ -1,10 +1,12 @@
 package edu.iastate.cs.indus.owl;
 
+import java.io.File;
+
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.ObjectProperty;
 import com.hp.hpl.jena.ontology.OntClass;
+
 import edu.iastate.cs.indus.owl.jena.JenaModel;
-import java.io.File;
 
 /**
  * add package and domain uitlitiies to the jena model

@@ -37,17 +37,21 @@ package edu.isu.indus.gui.view;
 //}}}
 //{{{ Swing components
 //}}}
-import java.io.*;
+import java.awt.Toolkit;
+import java.io.IOException;
 
-//}}}
-//{{{ AWT components
-import java.awt.*;
-import javax.swing.text.*;
+import javax.swing.text.AttributeSet;
+import javax.swing.text.BadLocationException;
+import javax.swing.text.DefaultStyledDocument;
+import javax.swing.text.GapContent;
+import javax.swing.text.SimpleAttributeSet;
+import javax.swing.text.StyleContext;
 
-import org.w3c.dom.*;
-import edu.isu.indus.gui.*;
-import edu.isu.indus.xml.*;
-import edu.iastate.cs.utils.*;
+import org.w3c.dom.DOMException;
+
+import edu.iastate.cs.utils.Debug;
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.xml.XMLDocument;
 
 //}}}
 

@@ -29,6 +29,7 @@ import com.hp.hpl.jena.util.ModelLoader;
 import com.hp.hpl.jena.vocabulary.OWL;
 import com.hp.hpl.jena.vocabulary.RDF;
 import com.hp.hpl.jena.vocabulary.RDFS;
+
 import edu.iastate.cs.indus.owl.jena.OWLMeta;
 import edu.iastate.cs.indus.owl.jena.OntModelProvider;
 

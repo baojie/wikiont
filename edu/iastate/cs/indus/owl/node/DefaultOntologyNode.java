@@ -5,6 +5,7 @@ import javax.swing.tree.DefaultMutableTreeNode;
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntResource;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
 import edu.iastate.cs.indus.owl.ResourceWithPackage;
 

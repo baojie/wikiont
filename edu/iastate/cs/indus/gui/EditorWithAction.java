@@ -4,6 +4,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+
 import javax.swing.Icon;
 import javax.swing.JFrame;
 import javax.swing.JMenu;
@@ -15,11 +16,11 @@ import edu.iastate.cs.indus.gui.action.HelpAboutAction;
 import edu.iastate.cs.indus.gui.action.OntologyCloseAction;
 import edu.iastate.cs.indus.gui.action.OntologyExitAction;
 import edu.iastate.cs.indus.gui.action.OntologyNewAction;
+import edu.iastate.cs.indus.gui.action.OntologyOpenAction;
 import edu.iastate.cs.indus.gui.action.OntologySaveAction;
+import edu.iastate.cs.indus.gui.action.OntologySaveAsAction;
 import edu.iastate.cs.indus.gui.action.SetupOWLFormatAction;
 import edu.iastate.cs.utils.Debug;
-import edu.iastate.cs.indus.gui.action.OntologyOpenAction;
-import edu.iastate.cs.indus.gui.action.OntologySaveAsAction;
 
 /**
  * Description: Actions handlers

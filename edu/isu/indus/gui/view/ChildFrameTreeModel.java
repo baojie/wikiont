@@ -39,15 +39,21 @@ package edu.isu.indus.gui.view;
 //{{{ DOM uses SAX Exceptions
 //}}}
 //{{{ Java base classes
-import java.util.*;
+import java.awt.Component;
+import java.util.Enumeration;
+import java.util.Vector;
 
-import java.awt.*;
-import javax.swing.*;
-import javax.swing.event.*;
-import javax.swing.tree.*;
+import javax.swing.JOptionPane;
+import javax.swing.event.TreeModelEvent;
+import javax.swing.event.TreeModelListener;
+import javax.swing.tree.TreeModel;
+import javax.swing.tree.TreePath;
 
-import org.w3c.dom.*;
-import edu.isu.indus.xml.*;
+import org.w3c.dom.DOMException;
+import org.w3c.dom.Node;
+
+import edu.isu.indus.xml.XMLDocument;
+import edu.isu.indus.xml.XNode;
 
 //}}}
 

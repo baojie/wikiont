@@ -34,15 +34,19 @@ package edu.isu.indus.action;
  */
 
 //{{{ jsXe classes
-import java.io.*;
-import javax.xml.parsers.*;
+import java.awt.event.ActionEvent;
+import java.io.IOException;
 
-import java.awt.event.*;
-import javax.swing.*;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.JOptionPane;
+import javax.xml.parsers.ParserConfigurationException;
 
-import org.xml.sax.*;
-import edu.isu.indus.gui.*;
-import edu.isu.indus.xml.*;
+import org.xml.sax.SAXException;
+import org.xml.sax.SAXParseException;
+
+import edu.isu.indus.gui.MainFrame;
+import edu.isu.indus.xml.XMLDocument;
 
 //}}}
 

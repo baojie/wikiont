@@ -1,11 +1,12 @@
 package edu.iastate.cs.indus.owl.hierarchy;
 
-import javax.swing.JTree;
 import java.util.Enumeration;
-import javax.swing.tree.DefaultMutableTreeNode;
-import javax.swing.JFrame;
+
 import javax.swing.JEditorPane;
+import javax.swing.JFrame;
 import javax.swing.JScrollPane;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultMutableTreeNode;
 
 /**
  * Generic tree data structure

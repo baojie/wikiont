@@ -2,6 +2,7 @@ package edu.iastate.cs.indus.gui.action;
 
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
+
 import edu.iastate.cs.indus.gui.EditorWithAction;
 
 public class OntologyExitAction

@@ -1,17 +1,18 @@
 package edu.iastate.cs.indus.owl.hierarchy;
 
+import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 
 import com.hp.hpl.jena.ontology.OntClass;
 import com.hp.hpl.jena.ontology.OntModel;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
+import edu.iastate.cs.indus.owl.jena.render.TermRenderer;
 import edu.iastate.cs.indus.owl.jena.util.ClassUtil;
 import edu.iastate.cs.indus.owl.node.ClassNode;
 import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
-import java.io.PrintStream;
-import edu.iastate.cs.indus.owl.jena.render.TermRenderer;
 
 /**
  * Hierarchy based on subClassOf

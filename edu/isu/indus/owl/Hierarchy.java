@@ -3,11 +3,12 @@ package edu.isu.indus.owl;
 import java.util.Enumeration;
 import java.util.TreeSet;
 
+import com.hp.hpl.jena.rdf.model.Model;
+import com.hp.hpl.jena.rdf.model.ModelFactory;
+import com.hp.hpl.jena.rdf.model.Resource;
+
 import edu.isu.indus.owl.jena.tree.DefaultNode;
 import edu.isu.indus.owl.jena.tree.Tree;
-import com.hp.hpl.jena.rdf.model.Model;
-import com.hp.hpl.jena.rdf.model.Resource;
-import com.hp.hpl.jena.rdf.model.ModelFactory;
 
 /**
  * Hierarchy Ontology

@@ -36,8 +36,8 @@ package edu.isu.indus.xml;
  */
 
 //{{{ DOM classes
-import org.apache.xerces.dom3.*;
-import org.w3c.dom.*;
+import org.apache.xerces.dom3.DOMLocator;
+import org.w3c.dom.Node;
 
 //}}}
 

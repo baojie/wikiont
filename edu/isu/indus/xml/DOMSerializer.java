@@ -43,12 +43,27 @@ package edu.isu.indus.xml;
 //{{{ DOM classes
 //}}}
 //{{{ Java base classes
-import java.io.*;
-import java.util.*;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
+import java.io.StringWriter;
+import java.io.UnsupportedEncodingException;
+import java.io.Writer;
+import java.util.Hashtable;
+import java.util.Vector;
 
-import org.apache.xerces.dom3.*;
-import org.w3c.dom.*;
-import org.w3c.dom.ls.*;
+import org.apache.xerces.dom3.DOMConfiguration;
+import org.apache.xerces.dom3.DOMError;
+import org.apache.xerces.dom3.DOMErrorHandler;
+import org.apache.xerces.dom3.DOMLocator;
+import org.apache.xerces.dom3.DOMStringList;
+import org.w3c.dom.DOMException;
+import org.w3c.dom.DocumentType;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.w3c.dom.ls.DOMWriter;
+import org.w3c.dom.ls.DOMWriterFilter;
 
 //}}}
 

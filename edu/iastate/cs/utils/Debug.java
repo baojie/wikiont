@@ -10,6 +10,7 @@ package edu.iastate.cs.utils;
  */
 
 import java.awt.Window;
+
 import javax.swing.JOptionPane;
 
 public class Debug

@@ -1,13 +1,12 @@
 package edu.iastate.cs.indus.owl.jena.render;
 
+import java.awt.HeadlessException;
 import java.io.ByteArrayOutputStream;
 import java.io.IOException;
 import java.io.PrintStream;
 import java.util.ArrayList;
 import java.util.Hashtable;
 import java.util.ListIterator;
-
-import java.awt.HeadlessException;
 
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntClass;
@@ -16,8 +15,9 @@ import com.hp.hpl.jena.ontology.OntProperty;
 import com.hp.hpl.jena.ontology.OntResource;
 import com.hp.hpl.jena.ontology.Ontology;
 import com.hp.hpl.jena.util.iterator.ExtendedIterator;
-import edu.isu.indus.owl.Hierarchy;
+
 import edu.iastate.cs.indus.owl.hierarchy.SubClassHierarchy;
+import edu.isu.indus.owl.Hierarchy;
 
 public class OntologyRenderer
     extends TermRenderer

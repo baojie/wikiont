@@ -2,8 +2,9 @@ package edu.iastate.cs.indus.gui;
 
 import java.io.File;
 
-import edu.iastate.cs.indus.owl.OntologyWithPackage;
 import com.hp.hpl.jena.shared.JenaException;
+
+import edu.iastate.cs.indus.owl.OntologyWithPackage;
 
 /**
  * <p>Title: </p>

@@ -33,7 +33,7 @@ package edu.isu.indus.xml;
  */
 
 //{{{ DOM classes
-import org.apache.xerces.dom3.*;
+import org.apache.xerces.dom3.DOMError;
 
 //}}}
 

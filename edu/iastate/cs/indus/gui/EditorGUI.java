@@ -2,6 +2,7 @@ package edu.iastate.cs.indus.gui;
 
 import java.awt.Dimension;
 import java.awt.Toolkit;
+
 import javax.swing.JFrame;
 import javax.swing.JMenuBar;
 import javax.swing.JSplitPane;
@@ -11,8 +12,8 @@ import edu.iastate.cs.indus.IndusConstants;
 import edu.iastate.cs.indus.gui.panel.browser.BrowserPanel;
 import edu.iastate.cs.indus.gui.panel.owl.OwlPanel;
 import edu.iastate.cs.indus.gui.panel.tree.PackageTreePanel;
-import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 import edu.iastate.cs.indus.gui.panel.tree.SubclassTreePanel;
+import edu.iastate.cs.indus.owl.node.DefaultOntologyNode;
 
 /**
  * <p>Title: </p>

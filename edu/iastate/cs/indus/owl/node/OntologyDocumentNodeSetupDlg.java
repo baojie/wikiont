@@ -1,6 +1,7 @@
 package edu.iastate.cs.indus.owl.node;
 
 import java.awt.Frame;
+
 import javax.swing.JTextField;
 
 import edu.iastate.cs.utils.Debug;

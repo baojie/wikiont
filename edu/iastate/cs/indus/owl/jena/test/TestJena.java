@@ -1,8 +1,10 @@
 package edu.iastate.cs.indus.owl.jena.test;
 
-import com.hp.hpl.jena.ontology.OntClass;
-import edu.iastate.cs.indus.owl.jena.JenaModel;
 import java.io.File;
+
+import com.hp.hpl.jena.ontology.OntClass;
+
+import edu.iastate.cs.indus.owl.jena.JenaModel;
 
 /**
  * @author Jie Bao

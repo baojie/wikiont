@@ -6,22 +6,28 @@ package edu.isu.indus.xml;
  */
 
 // ����W3C��DOM ��
-import java.io.*;
-// JAXP������DOM I/O����
-import javax.xml.parsers.*;
+import java.io.ByteArrayInputStream;
 
-// ��׼Java��
-import javax.swing.*;
-import javax.swing.tree.*;
+import javax.swing.JOptionPane;
+import javax.swing.JTree;
+import javax.swing.tree.DefaultMutableTreeNode;
+import javax.swing.tree.DefaultTreeModel;
+import javax.swing.tree.TreeSelectionModel;
+import javax.xml.parsers.DocumentBuilder;
+import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.parsers.ParserConfigurationException;
 
-import org.w3c.dom.*;
-import org.xml.sax.*;
+import org.w3c.dom.Document;
+import org.w3c.dom.NamedNodeMap;
+import org.w3c.dom.Node;
+import org.w3c.dom.NodeList;
+import org.xml.sax.SAXParseException;
 
 public class XTree
     extends JTree {
     /**
      * ����Ա������TreeNode�������ڴ洢JTree��ģ�͡�
-     *DefaultMutableTreeNode������javax.swing.tree�б������\uFFFD
+     *DefaultMutableTreeNode������javax.swing.tree�б������?\uFFFD
      *Ĭ���ṩ��MutableTreeNode�ӿڵ�һ��ʵ�֡�
      */
     private DefaultMutableTreeNode treeNode;
@@ -33,9 +39,9 @@ public class XTree
     private Document doc;
 
     /**
-     * ����캯��ͨ��ʹ�ô��͵��������е�XML�ı�����һ��XTree����
+     * �����?��ͨ��ʹ�ô��͵��������е�XML�ı�����һ��XTree����
      * @param text ��һ��XML��ʽ��XML�ı�
-     * @exception ParserConfigurationException ����캯���������÷�����ͻ��׳��쳣
+     * @exception ParserConfigurationException �����?���������÷�����ͻ��׳���?
      */
     public XTree(String text) throws ParserConfigurationException {
         this();
@@ -55,11 +61,11 @@ public class XTree
                                              SINGLE_TREE_SELECTION);
         setShowsRootHandles(true);
         setEditable(false);
-// ͨ���ʼ�������DOM4�������\uFFFD
+// ͨ���ʼ�������DOM4�������?\uFFFD
         dbf = DocumentBuilderFactory.newInstance();
         dbf.setValidating(false);
         db = dbf.newDocumentBuilder();
-// ����DOM��ڵ㲢�Ұ���ת����JTree����ģ��
+// ����DOM��ڵ�?�Ұ���ת����JTree����ģ��
         setModel(createDefaultTree());
     }
 
@@ -140,10 +146,10 @@ public class XTree
     } //end createTreeNode( Node root )
 
     /**
-     * ��������createTreeNode()��4jϵһ���ַ��ĳһ�����͵Ľڵ�\uFFFD
+     * ��������createTreeNode()��4jϵһ���ַ��ĳһ�����͵Ľڵ�?\uFFFD
      *
      * @param node org.w3c.Node.Node
-     * @return ������ʾ�ڵ�����ַ�\uFFFD
+     * @return ������ʾ�ڵ�����ַ�?\uFFFD
      */
     private String getNodeType(Node node) {
         String type;
@@ -241,7 +247,7 @@ public class XTree
         DefaultMutableTreeNode treeNode;
         Node newNode;
 
-        // ����DOM��ڵ㲢����ת����Ϊһ��Treeģ��
+        // ����DOM��ڵ�?����ת����Ϊһ��Treeģ��
         newNode = readXMLFile(text);
         if (newNode != null) {
             treeNode = createTreeNode(newNode);

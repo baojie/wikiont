@@ -2,6 +2,7 @@ package edu.iastate.cs.indus.owl.node;
 
 import com.hp.hpl.jena.ontology.Individual;
 import com.hp.hpl.jena.ontology.OntResource;
+
 import edu.iastate.cs.indus.owl.OntologyWithPackage;
 
 /**

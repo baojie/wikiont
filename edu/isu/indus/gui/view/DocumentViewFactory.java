@@ -36,7 +36,9 @@ package edu.isu.indus.gui.view;
  */
 
 //{{{ jsXe classes
-import java.util.*;
+import java.util.Enumeration;
+import java.util.NoSuchElementException;
+import java.util.Vector;
 
 //}}}
 
