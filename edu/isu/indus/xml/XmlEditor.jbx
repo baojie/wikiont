@@ -1,0 +1,22 @@
+[PropertyInfo]
+jButton_Refresh,JButton,false,false, , ,false,<default>
+jDialog_Verify,JDialog,false,false, , ,false,<default>
+jMenu_File,JMenu,false,false, , ,false,<default>
+jMenu_Help,JMenu,false,false, , ,false,<default>
+jMenuBar,JMenuBar,false,false, , ,false,<default>
+jMenuItem_File_Exit,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_New,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_Open,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_Save,JMenuItem,false,false, , ,false,<default>
+jMenuItem_Help_About,JMenuItem,false,false, , ,false,<default>
+jScrollLeft,JScrollPane,false,false, , ,false,<default>
+jScrollRight,JScrollPane,false,false, , ,false,<default>
+jSplitPane,JSplitPane,false,false, , ,false,<default>
+jTextArea,JTextArea,false,false, , ,false,<default>
+winClosing,WindowListener,false,false, , ,false,<default>
+xTree,XTree,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

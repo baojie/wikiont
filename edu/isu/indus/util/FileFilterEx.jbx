@@ -1,0 +1,13 @@
+[PropertyInfo]
+description,String,false,false, , ,true,<default>
+extensionListInDescription,boolean,false,false, , ,true,<default>
+filters,Hashtable,false,false, , ,false,<default>
+fullDescription,String,false,false, , ,false,<default>
+HIDDEN_FILE,String,false,false, , ,false,<default>
+TYPE_UNKNOWN,String,false,false, , ,false,<default>
+useExtensionsInDescription,boolean,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,33 @@
+[PropertyInfo]
+jBorderPane,JPanel,false,false, , ,false,<default>
+jButton_Refresh,JButton,false,false, , ,false,<default>
+jDialog_Verify,JDialog,false,false, , ,false,<default>
+jMenu_File,JMenu,false,false, , ,false,<default>
+jMenu_Help,JMenu,false,false, , ,false,<default>
+jMenu_Tools,JMenu,false,false, , ,false,<default>
+jMenu_View,JMenu,false,false, , ,false,<default>
+jMenuBar,JMenuBar,false,false, , ,false,<default>
+jMenuItem_File_Close,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_Exit,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_New,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_Open,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_Save,JMenuItem,false,false, , ,false,<default>
+jMenuItem_File_SaveAs,JMenuItem,false,false, , ,false,<default>
+jMenuItem_Help_About,JMenuItem,false,false, , ,false,<default>
+jMenuItem_Tools_Options,JMenuItem,false,false, , ,false,<default>
+jRetPanel,JPanel,false,false, , ,false,<default>
+jScrollLeft,JPanel,false,false, , ,false,<default>
+jScrollLeftLower,JPanel,false,false, , ,false,<default>
+jScrollLeftUpper,JScrollPane,false,false, , ,false,<default>
+jScrollRight,JScrollPane,false,false, , ,false,<default>
+jSplitPane,JSplitPane,false,false, , ,false,<default>
+jsXeOptions,OptionsPanel,false,false, , ,false,<default>
+jTextArea,JTextArea,false,false, , ,false,<default>
+winClosing,WindowListener,false,false, , ,false,<default>
+XMLDocuments,Vector,false,false, , ,false,<default>
+xTree,XTree,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

@@ -1,0 +1,13 @@
+[PropertyInfo]
+currentdoc,XMLDocument,false,false, , ,false,<default>
+menus,JMenu[],false,false, , ,true,<default>
+optionsPanel,OptionsPanel,false,false, , ,true,<default>
+panel,JPanel,false,false, , ,false,<default>
+text,String,false,false, , ,true,<default>
+textarea,JTextArea,false,false, , ,false,<default>
+XMLDocument,XMLDocument,false,false, , ,true,<default>
+[IconNames]
+
+
+
+

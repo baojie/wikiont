@@ -1,0 +1,28 @@
+[PropertyInfo]
+BREAKLINE,String,false,false, , ,false,<default>
+COMPLEMENT,String,false,false, , ,false,<default>
+EQUIVALENT,String,false,false, , ,false,<default>
+EXISTS,String,false,false, , ,false,<default>
+FORALL,String,false,false, , ,false,<default>
+GlobalOntologyModel,Hashtable,false,false, , ,false,<default>
+GREATEQU,String,false,false, , ,false,<default>
+HistoryTermURI,String[],false,false, , ,false,<default>
+INTERSECTION,String,false,false, , ,false,<default>
+LESSEQU,String,false,false, , ,false,<default>
+MEMBEROF,String,false,false, , ,false,<default>
+NEWLINE,String,false,false, , ,false,<default>
+ontListArray,ArrayList,false,false, , ,false,<default>
+ontListMirrorURIArray,ArrayList,false,false, , ,false,<default>
+OWL,String,false,false, , ,false,<default>
+RDF,String,false,false, , ,false,<default>
+RDFS,String,false,false, , ,false,<default>
+SUBSET,String,false,false, , ,false,<default>
+SUPERSET,String,false,false, , ,false,<default>
+termListArray,ArrayList,false,false, , ,false,<default>
+termListMirrorURIArray,ArrayList,false,false, , ,false,<default>
+UNION,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+

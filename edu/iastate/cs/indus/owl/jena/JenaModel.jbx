@@ -1,0 +1,17 @@
+[PropertyInfo]
+FULLXML,String,false,false, , ,false,<default>
+model,OntModel,false,false, , ,true,<default>
+modified,boolean,false,false, , ,true,<default>
+N3,String,false,false, , ,false,<default>
+N_TRIPLE,String,false,false, , ,false,<default>
+nsPrefix,String,false,false, , ,true,<default>
+NsPrefix,String,false,false, , ,false,<default>
+ontURI,String,false,false, , ,false,<default>
+OWLOntology,String,false,false, , ,true,<default>
+SHORTXML,String,false,false, , ,false,<default>
+writeFormat,String,false,false, , ,false,<default>
+[IconNames]
+
+
+
+
